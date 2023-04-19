@@ -30,7 +30,6 @@
 	</dependencies>
 
 	<build>
-		<finalName>spring-jenkins-learning</finalName>
 		<plugins>
 			<plugin>
 				<groupId>org.springframework.boot</groupId>
