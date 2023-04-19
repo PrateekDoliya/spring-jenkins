@@ -16,6 +16,7 @@ public class SpringJenkinsApplication {
 	@PostConstruct
 	public void init() {
 		logger.info("Application Started.......");
+		logger.info("this logger is added to test build pipeline");
 	}
 	
 	public static void main(String[] args) {
