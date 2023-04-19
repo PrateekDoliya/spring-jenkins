@@ -17,6 +17,7 @@ public class SpringJenkinsApplication {
 	public void init() {
 		logger.info("Application Started.......");
 		logger.info("this logger is added to test build pipeline");
+		logger.info("this logger is added to ccreate docker image");
 	}
 	
 	public static void main(String[] args) {
