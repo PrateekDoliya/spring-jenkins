@@ -25,7 +25,7 @@ pipeline{
         stage("Docker Image"){
             steps{
                 echo "======== building docker imnage ========"
-                bat "docker build -t jankinsspr" .
+                bat "docker build -t jankinsspr ."
             }
         }
         stage("DockerHub"){
