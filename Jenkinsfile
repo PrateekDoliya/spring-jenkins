@@ -4,6 +4,7 @@ pipeline{
         stage("Sonar"){
             steps{
                 echo "======== sonar ========"
+                bat "mvn --version"
             }
         }
         stage("Build"){
@@ -18,7 +19,7 @@ pipeline{
         }
         stage("DockerHub"){
             steps{
-                echo "======== ppuushing docker image to docker hub ========"
+                echo "======== pushing docker image to docker hub ========"
             }
         }
     }
