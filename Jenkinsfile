@@ -31,7 +31,8 @@ pipeline{
         stage("DockerHub"){
             steps{
                 echo "======== pushing docker image to docker hub ========"
-                
+                bat "docker image tag jankinsspr prateek/jankinsspr"
+                bat "doccker image  push prateek/jankinsspr"
             }
         }
     }
